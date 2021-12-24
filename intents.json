@@ -1,0 +1,22 @@
+{"intents":  [
+  {"tag":  "wishes",
+  "patterns":  [],
+  "responses":  []
+  },
+  {"tag":  "song",
+  "patterns":  [],
+  "responses":  []
+  },
+  {"tag":  "resolution",
+  "patterns":  [],
+  "responses":  []
+  },
+  {"tag":  "gift",
+  "exchange":  [],
+  "responses": []
+  },
+  {"tag":  "deckTheHalls"
+  "exchange": [],
+  "responses":  []
+  }
+]}
