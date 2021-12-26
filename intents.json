@@ -3,13 +3,16 @@
   "patterns":  ["Merry christmas!", "I wish you a merry christmas", "Wish you a great holiday"],
   "responses":  ["Merry Christmas, dear friend! Among all the presents I have received this year, the little token of love from you made me the happiest!", "I’m glad to have you in this Christmas. Wishing you Merry Christmas. May you have a happy year."]},
   {"tag":  "sing",
-  "patterns":  ["I wish you a merry christmas", "Jingle bells Jingle bells", "Deck the halls", "This is the season to be jolly"],
-  "responses":  ["I  won’t ask for much this Christmas. I won’t even wish for snow. And I’m just gonna keep on waiting, underneath the mistletoe", "Jingle bell, jingle bell, jingle bell rock. Jingle bells swing and jingle bells ring. Snowing and blowing up bushels of fun. Now the jingle hop has begun." ]},
+  "patterns":  ["Sing", "Sing christmas songs", "Christmas songs", "Songs", "Karaoke"],
+  "responses":  ["I wish you a merry christmas", "Jingle bells Jingle bells", "Deck the halls", "This is the season to be jolly","I  won’t ask for much this Christmas. I won’t even wish for snow. And I’m just gonna keep on waiting, underneath the mistletoe", "Jingle bell, jingle bell, jingle bell rock. Jingle bells swing and jingle bells ring. Snowing and blowing up bushels of fun. Now the jingle hop has begun." ]},
   {"tag":  "resolution",
-  "patterns":  ["Lose weight", "Work out", "Exercise", "More fit", "Save money", "Diet", "Exercise", "Improve in School", "New hobby", "Stop smoking", "Donate Charity", "Be a better person"],
-  "responses":  ["How does prioritizing your sleep this year sound?", "Instead of working out start by spending more time outside", "Be more forgiving", "Try stepping out of your comfort zone some more :)"]},
+  "patterns":  ["I need a new year resolution", "resolution", "It is almost new year", "new year", "new", "year"],
+  "responses":  ["Don't Hit Snooze","Compliment Someone and Mean It","Stop gossiping.","Work out to feel good, not be thinner.","Focus on a Passion, Not the Way You Look","Please considering losing more weight next year.", "Perhaps go tp the gym and work out", "Exercise more", "Be more More fit", "Buy some stocks and save money, inflation is high", "Have a healthier diet", "Go jogging more", "Have better grades in school", "Get a new hobby", "Donate Charity", "Be a kinder","How does prioritizing your sleep this year sound?", "Instead of working out start by spending more time outside", "Be more forgiving","Praying to god more.", "Try stepping out of your comfort zone some more :)"]},
   {"tag":  "gift",
-  "patterns":  ["Take this gift", "Gift for you", "Present for you"],
-  "responses":  ["Heres my favorite book :book: ", "Open my present for you :gift: ", "Merry Christmas! :gift_heart: ", "I hope you like to play ball :) :basketball:  "]}
+  "patterns":  ["Give me a gift", "I am poor", "gift exchange", "No one give me presents", "This is the worst christmas ever"],
+  "responses":  ["Heres my favorite book 📖 ", "Open my present for you 🎁 ", "Merry Christmas! 💝 ", "I hope you like to play ball 🙂 🏀  "]},
+  {"tag":  "SideProjects",
+  "patterns":  ["Start programing", "I need a side project", "MLH", "I want to win some money", "I want to meet new people"],
+  "responses":  ["Maybe start attending some hackerthons.", "Join on campus clubs.", "Grind leet code.", "Ask yourself what do you love? Work on it and you would satisfy that!"]}
 ]
 }
