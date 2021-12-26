@@ -4,6 +4,16 @@ import pickle
 import numpy as np
 import sys
 import nltk
+from dotenv import load_dotenv
+
+import discord
+import os
+
+client = discord.Client()
+load_dotenv()
+TOKEN = os.getenv('TOKEN')
+
+
 from nltk.stem import WordNetLemmatizer
 
 from tensorflow.keras.models import load_model
@@ -50,8 +60,16 @@ def get_response(intents_list, intents_json):
             break
     return result
 
-#print("GO! Bot is running!")
-message = sys.argv[1]
-ints = predict_class(message)
-res = get_response(ints, intents)
-print(res)
+print("GO! Bot is running!")
+
+
+@client.event
+async  def on_message(message):
+    print(message.content)
+    if message.author == client.user:
+        return
+    ints = predict_class(message.content[13:])
+    res = get_response(ints, intents)
+    await message.channel.send(res)
+
+client.run(TOKEN)
