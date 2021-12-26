@@ -1,4 +1,17 @@
-import nltk
-#nltk.download('punkt')
-sentence = "At eight o'clock on Thursday morning, Arthur didn't feel very good."
-print (nltk.word_tokenize(sentence))
+import discord
+import os
+from dotenv import load_dotenv
+from neuralintents import GenericAssistant
+
+chatbot = GenericAssistant()
+
+client = discord.Client()
+
+load_dotenv()
+TOKEN = os.getenv('TOKEN')
+
+@client.event
+async def on_message(message):
+    if message.author == client.user:
+        return
+
