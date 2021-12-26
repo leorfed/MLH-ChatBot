@@ -2,7 +2,7 @@ import random
 import json
 import pickle
 import numpy as np
-
+import sys
 import nltk
 from nltk.stem import WordNetLemmatizer
 
@@ -50,10 +50,8 @@ def get_response(intents_list, intents_json):
             break
     return result
 
-print("GO! Bot is running!")
-
-while True:
-    message = input("")
-    ints = predict_class(message)
-    res = get_response(ints, intents)
-    print(res)
+#print("GO! Bot is running!")
+message = sys.argv[1]
+ints = predict_class(message)
+res = get_response(ints, intents)
+print(res)
