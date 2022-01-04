@@ -1,6 +1,6 @@
 {"intents": [
   {"tag":  "wishes",
-  "patterns":  ["Merry christmas!", "I wish you a merry christmas", "Wish you a great holiday"],
+  "patterns":  ["Hi","Merry christmas!", "I wish you a merry christmas", "Wish you a great holiday"],
   "responses":  ["Merry Christmas, dear friend! Among all the presents I have received this year, the little token of love from you made me the happiest!", "I’m glad to have you in this Christmas. Wishing you Merry Christmas. May you have a happy year."]},
   {"tag":  "sing",
   "patterns":  ["Sing", "Sing christmas songs", "Christmas songs", "Songs", "Karaoke"],

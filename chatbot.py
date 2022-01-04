@@ -68,7 +68,7 @@ async  def on_message(message):
     print(message.content)
     if message.author == client.user:
         return
-    ints = predict_class(message.content[13:])
+    ints = predict_class(message.content)#predict_class(message.content[13:])
     res = get_response(ints, intents)
     await message.channel.send(res)
 
