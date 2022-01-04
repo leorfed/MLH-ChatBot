@@ -1,5 +1,5 @@
 # MLH-ChatBot
-This is an intent based chatbot which made for the 2021 Christmas hackerthon. Let worked on the python discord API integration while I worked on teh backend model Intent based chatbots are agents that are meant to determint the intent of a user baised on it's input. The inspiration for this bot was Siri. 
+The intent based chatbot was made for the 2021 Christmas hackerthon. My friend, Leo worked on the Python discord API integration while I worked on the backend model. Intent based chatbots are agents meant to determine the intent of a user according to its input. The inspiration for this bot was Siri. 
 
 
 # How it worked
