@@ -12,3 +12,6 @@ First obtain a discord bot token and put it in the .env file put it where it sai
 Define your intents and run training.py
 
 Run chatbot.py to have the bot running
+  
+ Be sure to get the token by clicking copy
+![image](https://user-images.githubusercontent.com/34801810/148580601-a3414f86-9588-41a7-8779-98849e6135d3.png)
