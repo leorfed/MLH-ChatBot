@@ -15,3 +15,7 @@ Run chatbot.py to have the bot running
   
  Be sure to get the token by clicking copy
 ![image](https://user-images.githubusercontent.com/34801810/148580601-a3414f86-9588-41a7-8779-98849e6135d3.png)
+
+  Also do not forget the '' around the token
+  
+  <img width="550" alt="image" src="https://user-images.githubusercontent.com/34801810/148580982-74040ea5-9474-4c18-9bfe-8d7b2f9cec6e.png">
