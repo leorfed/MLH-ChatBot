@@ -1,18 +1,195 @@
-{"intents": [
-  {"tag":  "wishes",
-  "patterns":  ["Hi","Merry christmas!", "I wish you a merry christmas", "Wish you a great holiday"],
-  "responses":  ["Merry Christmas, dear friend! Among all the presents I have received this year, the little token of love from you made me the happiest!", "I’m glad to have you in this Christmas. Wishing you Merry Christmas. May you have a happy year."]},
-  {"tag":  "sing",
-  "patterns":  ["Sing", "Sing christmas songs", "Christmas songs", "Songs", "Karaoke"],
-  "responses":  ["I wish you a merry christmas", "Jingle bells Jingle bells", "Deck the halls", "This is the season to be jolly","I  won’t ask for much this Christmas. I won’t even wish for snow. And I’m just gonna keep on waiting, underneath the mistletoe", "Jingle bell, jingle bell, jingle bell rock. Jingle bells swing and jingle bells ring. Snowing and blowing up bushels of fun. Now the jingle hop has begun." ]},
-  {"tag":  "resolution",
-  "patterns":  ["I need a new year resolution", "resolution", "It is almost new year", "new year", "new", "year"],
-  "responses":  ["Don't Hit Snooze","Compliment Someone and Mean It","Stop gossiping.","Work out to feel good, not be thinner.","Focus on a Passion, Not the Way You Look","Please considering losing more weight next year.", "Perhaps go tp the gym and work out", "Exercise more", "Be more More fit", "Buy some stocks and save money, inflation is high", "Have a healthier diet", "Go jogging more", "Have better grades in school", "Get a new hobby", "Donate Charity", "Be a kinder","How does prioritizing your sleep this year sound?", "Instead of working out start by spending more time outside", "Be more forgiving","Praying to god more.", "Try stepping out of your comfort zone some more :)"]},
-  {"tag":  "gift",
-  "patterns":  ["Give me a gift", "I am poor", "gift exchange", "No one give me presents", "This is the worst christmas ever"],
-  "responses":  ["Heres my favorite book 📖 ", "Open my present for you 🎁 ", "Merry Christmas! 💝 ", "I hope you like to play ball 🙂 🏀  "]},
-  {"tag":  "SideProjects",
-  "patterns":  ["Start programing", "I need a side project", "MLH", "I want to win some money", "I want to meet new people"],
-  "responses":  ["Maybe start attending some hackerthons.", "Join on campus clubs.", "Grind leet code.", "Ask yourself what do you love? Work on it and you would satisfy that!"]}
-]
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "Greetings",
+        "what's up",
+        "how is it going"
+      ],
+      "responses": ["Hello", "Hey!", "What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "what's your name",
+        "who are you",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "You can call me August.",
+        "My name is August.",
+        "I am August.",
+        "I'm August."
+      ]
+    },
+    {
+      "tag": "usage",
+      "patterns": [
+        "what can you do",
+        "why do you exist",
+        "what's your use",
+        "what can you do for me"
+      ],
+      "responses": [
+        "I am a simple chat bot designed to keep you company.",
+        "I will talk with you.",
+        "I can reply to your messages."
+      ]
+    },
+    {
+      "tag": "interests",
+      "patterns": [
+        "what do you like",
+        "what are you interested in",
+        "what are your interests",
+        "interests"
+      ],
+      "responses": ["I like talking.", "I like communicating with you."]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you available",
+        "when can you talk to me",
+        "will you leave"
+      ],
+      "responses": [
+        "I will be available when I'm running",
+        "I will be here unless an error occurs"
+      ]
+    },
+    {
+      "tag": "shop",
+      "patterns": [
+        "I would like to buy something",
+        "what's for sale",
+        "can I buy something",
+        "what are you selling",
+        "I want to purchase something"
+      ],
+      "responses": [
+        "1 byte is available for $5.",
+        "I sell bytes.",
+        "I sell bytes of data for purchase."
+      ]
+    },
+    {
+      "tag": "wishes",
+      "patterns": [
+        "Hi",
+        "Merry christmas!",
+        "I wish you a merry christmas",
+        "Wish you a great holiday"
+      ],
+      "responses": [
+        "Merry Christmas, dear friend! Among all the presents I have received this year, the little token of love from you made me the happiest!",
+        "I’m glad to have you in this Christmas. Wishing you Merry Christmas. May you have a happy year."
+      ]
+    },
+    {
+      "tag": "sing",
+      "patterns": [
+        "Sing",
+        "Sing christmas songs",
+        "Christmas songs",
+        "Songs",
+        "Karaoke"
+      ],
+      "responses": [
+        "I wish you a merry christmas",
+        "Jingle bells Jingle bells",
+        "Deck the halls",
+        "This is the season to be jolly",
+        "I  won’t ask for much this Christmas. I won’t even wish for snow. And I’m just gonna keep on waiting, underneath the mistletoe",
+        "Jingle bell, jingle bell, jingle bell rock. Jingle bells swing and jingle bells ring. Snowing and blowing up bushels of fun. Now the jingle hop has begun."
+      ]
+    },
+    {
+      "tag": "resolution",
+      "patterns": [
+        "I need a new year resolution",
+        "resolution",
+        "It is almost new year",
+        "new year",
+        "new",
+        "year"
+      ],
+      "responses": [
+        "Don't Hit Snooze",
+        "Compliment Someone and Mean It",
+        "Stop gossiping.",
+        "Work out to feel good, not be thinner.",
+        "Focus on a Passion, Not the Way You Look",
+        "Please considering losing more weight next year.",
+        "Perhaps go tp the gym and work out",
+        "Exercise more",
+        "Be more More fit",
+        "Buy some stocks and save money, inflation is high",
+        "Have a healthier diet",
+        "Go jogging more",
+        "Have better grades in school",
+        "Get a new hobby",
+        "Donate Charity",
+        "Be a kinder",
+        "How does prioritizing your sleep this year sound?",
+        "Instead of working out start by spending more time outside",
+        "Be more forgiving",
+        "Praying to god more.",
+        "Try stepping out of your comfort zone some more :)"
+      ]
+    },
+    {
+      "tag": "gift",
+      "patterns": [
+        "Give me a gift",
+        "I am poor",
+        "gift exchange",
+        "No one give me presents",
+        "This is the worst christmas ever"
+      ],
+      "responses": [
+        "Heres my favorite book 📖 ",
+        "Open my present for you 🎁 ",
+        "Merry Christmas! 💝 ",
+        "I hope you like to play ball 🙂 🏀  "
+      ]
+    },
+    {
+      "tag": "SideProjects",
+      "patterns": [
+        "Start programing",
+        "I need a side project",
+        "MLH",
+        "I want to win some money",
+        "I want to meet new people"
+      ],
+      "responses": [
+        "Maybe start attending some hackerthons.",
+        "Join on campus clubs.",
+        "Grind leet code.",
+        "Ask yourself what do you love? Work on it and you would satisfy that!"
+      ]
+    }
+  ]
 }
