@@ -37,10 +37,10 @@
         "can you tell me your name"
       ],
       "responses": [
-        "You can call me August.",
-        "My name is August.",
-        "I am August.",
-        "I'm August."
+        "You can call me MLH-Chatbot.",
+        "My name is MLH-Chatbot.",
+        "I am MLH-Chatbot.",
+        "I'm MLH-Chatbot."
       ]
     },
     {
@@ -80,24 +80,8 @@
       ]
     },
     {
-      "tag": "shop",
-      "patterns": [
-        "I would like to buy something",
-        "what's for sale",
-        "can I buy something",
-        "what are you selling",
-        "I want to purchase something"
-      ],
-      "responses": [
-        "1 byte is available for $5.",
-        "I sell bytes.",
-        "I sell bytes of data for purchase."
-      ]
-    },
-    {
       "tag": "wishes",
       "patterns": [
-        "Hi",
         "Merry christmas!",
         "I wish you a merry christmas",
         "Wish you a great holiday"
